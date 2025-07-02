@@ -1,0 +1,23 @@
+[project]
+name = "reformatting_component3"
+version = "0.1.0"
+description = "reformatting_component3 using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<=3.13"
+dependencies = [
+    "crewai[tools]>=0.80.0,<1.0.0",
+    "onnxruntime==1.15.0",
+    "socksio>=1.0.0",
+    "pyarrow==17.0.0",
+]
+
+[project.scripts]
+reformatting_component3 = "reformatting_component3.main:run"
+run_crew = "reformatting_component3.main:run"
+train = "reformatting_component3.main:train"
+replay = "reformatting_component3.main:replay"
+test = "reformatting_component3.main:test"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
