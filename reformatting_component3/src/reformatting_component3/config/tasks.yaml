@@ -1,0 +1,17 @@
+evacuation_research_task:
+ description: >
+   Using the PDFSearchTool and its according document (which will provide you with weather forcasts for {topic} which can be found here: /Users/madeleine/reformatting_component3/nws_training_document.pdf),
+   write a flash flood warnings for {topic} that persuades residents of Manteo, North Carolina to take proper emergency actions given that it is 2018.
+ expected_output: >
+   State that emergency alert system (EAS) activation has been requested
+   State the type of alert (Flash Flood Warning)
+   State what issuing weather forcast office is providing this alert (Wilmington, NC)
+   State what counties near Wilmington North Carolina are receiving the flash flood alert for 
+   State what time the alert expires 
+   State when flash flooding during {topic} began 
+   include the keyword storm surge,
+   put information about the greatest threats from {topic} in all capital letters,
+   and mention that the effects of {topic} will be similar to Hurricane Maria
+ agent: emergency_manager
+
+
